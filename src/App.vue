@@ -1,20 +1,23 @@
 <template>
   <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   <!-- <TestComputed></TestComputed> -->
-  <PersonCompVue></PersonCompVue>
+  <!-- <PersonCompVue></PersonCompVue> -->
+  <FormComp></FormComp>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 // import TestComputed from './components/TestComputed.vue'
-import PersonCompVue from './components/PersonComp.vue';
+// import PersonCompVue from './components/PersonComp.vue';
+import  FormComp from './components/FormComp.vue'
 
 export default {
   name: 'App',
   components: {
     // HelloWorld,
     // TestComputed,
-    PersonCompVue
+    // PersonCompVue,
+    FormComp
   }
 }
 </script>
